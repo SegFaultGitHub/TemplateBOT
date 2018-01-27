@@ -2,7 +2,6 @@ var async = require("async");
 
 module.exports = {
     func: function (user, userID, channelID, message, evt, args, callback) {
-        logger.info("coucou");
         if (args.length !== 0) {
             return callback(null, {
                 type: "MISUSED"
