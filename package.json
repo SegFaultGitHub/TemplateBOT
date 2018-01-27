@@ -1,0 +1,12 @@
+{
+  "name": "TemplateBOT",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "author": "SegFault#5814",
+  "dependencies": {
+    "async": "^2.5.0",
+    "command-line-args": "^4.0.7",
+    "merge": "^1.2.0",
+    "winston": "^2.4.0"
+  }
+}
