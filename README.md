@@ -1,7 +1,6 @@
 # HOW TO USE
 ## Discord.io module
-The nodejs module used for the bot is not in `./package.json`. You have to install it manually with the command `npm install woor/discord.io#gateway_v6`.
-The github of this module can be found [here](https://github.com/izy521/discord.io).
+Please check [here](https://github.com/izy521/discord.io) for documentation and source code of the discord module.
 
 ## Personnal informations
 Place your personnal information in `./botConfig.json`.

@@ -6,6 +6,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "command-line-args": "^4.0.7",
+    "discord.io": "woor/discord.io#gateway_v6",
     "merge": "^1.2.0",
     "winston": "^2.4.0"
   }
