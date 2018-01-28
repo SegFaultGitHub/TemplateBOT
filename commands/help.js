@@ -1,4 +1,5 @@
 var async = require("async");
+var path = require("path");
 
 function sendHelpMessage(user, userID, channelID, message, evt, cmds, callback) {
     return async.waterfall([
@@ -56,7 +57,7 @@ module.exports = {
         }
     },
     help: {
-        usage: botConfig.prefix + "help [COMMAND ...]",
+        usage: botConfig.prefix + path.basename(__filename, ".js") + " [COMMAND ...]",
         message: "Display the help message for the wanted commands"
     }
 };

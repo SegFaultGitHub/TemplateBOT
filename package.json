@@ -1,5 +1,5 @@
 {
-  "name": "TemplateBOT",
+  "name": "template-bot",
   "version": "1.0.0",
   "main": "bot.js",
   "author": "SegFault#5814",
@@ -8,6 +8,7 @@
     "command-line-args": "^4.0.7",
     "discord.io": "woor/discord.io#gateway_v6",
     "merge": "^1.2.0",
+    "path": "^0.12.7",
     "winston": "^2.4.0"
   }
 }

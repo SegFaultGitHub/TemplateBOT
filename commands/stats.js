@@ -1,4 +1,5 @@
 var async = require("async");
+var path = require("path");
 
 module.exports = {
     func: function (user, userID, channelID, message, evt, args, callback) {
@@ -34,7 +35,7 @@ module.exports = {
         });
     },
     help: {
-        usage: botConfig.prefix + "stats",
+        usage: botConfig.prefix + path.basename(__filename, ".js"),
         message: "Display various stats concerning the bot"
     }
 };
